@@ -20,10 +20,23 @@ document.addEventListener("DOMContentLoaded",()=>{
         ipt.focus();
     })
     
+    ipt.addEventListener("keypress",(e)=>{
+        if(e.key=="Enter"){
+            console.log("eeeeee");
+            ull.insertAdjacentHTML("afterbegin",strW(ipt.value));
+            ipt.value="";
+            ipt.focus();
+        }
+    }
+
+    )
+
     // bd.addEventListener("click",()=>{
     // console.log(bd)})
 
     ull.addEventListener("click",(e)=>{
-        console.log(e.target);
+        if(e.target.nodeName=="BUTTON"){
+            e.target.parentNode.remove();
+        }
     })
 })
