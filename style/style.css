@@ -6,6 +6,12 @@ p{
     text-shadow: 5px 5px 5px rgb(122, 50, 216);
 }
 
+.pTitle{
+    font-size:xx-large;
+    color:rgb(44, 9, 110);
+}
+
+
 #tranpa{
     width: 200px;
     height: 50px;
@@ -15,5 +21,9 @@ p{
 
 #tranpa:hover{
     width:400px;
-    transform:rotate(30deg);
+    /*transform:rotate(30deg);*/
+}
+
+div{
+    font-size: xx-large;
 }
