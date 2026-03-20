@@ -27,3 +27,8 @@ p{
 div{
     font-size: xx-large;
 }
+span{   
+    width:500px;
+    color:blue;
+    display: inline;
+}
