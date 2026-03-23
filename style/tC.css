@@ -1,0 +1,29 @@
+.ttt{
+    width: 500px;
+    height: 300px;
+    border:1px red solid;   
+    position: relative;
+    overflow: hidden;
+}
+
+.sss{
+    width: 500px;
+    height:50px;
+    background-color: black;
+    color:rgba(245, 236, 236, 0.897);
+    text-align: center;
+    font-size: 40px;
+    padding: 5px 0;
+    position: absolute;
+    top:-100px;
+    transition: all 1s;
+}
+
+.ttt:hover .sss{
+    top:0px;
+}
+
+.iG{
+    max-width: 100%;
+    height:auto;
+}
